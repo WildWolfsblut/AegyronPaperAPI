@@ -26,7 +26,7 @@ repositories {
 
 dependencies {
     // Paper API
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
 
     // Adventure API (for messaging)
     implementation("net.kyori:adventure-api:4.14.0")
