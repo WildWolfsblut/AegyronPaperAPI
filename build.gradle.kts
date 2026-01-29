@@ -1,6 +1,7 @@
 plugins {
     id("java")
     id("maven-publish")
+    id("io.papermc.paperweight.userdev") version "2.0.0-beta.19"
 }
 
 group = "de.itsjxsper"
@@ -26,7 +27,7 @@ repositories {
 
 dependencies {
     // Paper API
-    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21.11-R0.1-SNAPSHOT")
 
     // Adventure API (for messaging)
     implementation("net.kyori:adventure-api:4.14.0")
